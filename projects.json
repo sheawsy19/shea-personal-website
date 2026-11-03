@@ -1,0 +1,234 @@
+[
+  {
+    "id": "grape-house",
+    "title": "葡萄房子",
+    "en": "GRAPE HOUSE",
+    "category": "visual",
+    "type": "包装设计",
+    "bg": "#ede8df",
+    "className": "portrait-work",
+    "images": [
+      "grape-structure",
+      "grape-visual"
+    ],
+    "role": "团队创作 · 包装设计 · 地域文化的当代表达",
+    "description": "将新疆葡萄晾房与葡萄纹样的传统文化融入现代葡萄包装。选用可降解瓦楞纸，实现抗震、透气与环保；以侧面打开、抽拉式拿取的结构，还原葡萄从树上采摘的自然语境。盒身的葡萄科普插画帮助辨认正常白霜与变质霉斑，减少浪费，守卫食品安全。",
+    "extra": "选取无核白、玻璃脆、黑美人三种吐鲁番葡萄，将传统葡萄纹样转译为像素图形，并延展为异形信息吊牌、信封与文化介绍卡片，让包装兼具产品识别、互动体验与文化传播的作用。",
+    "award": "第十八届中国之星设计奖 · 包装设计银奖；第四届 XJ-STAR 新疆之星设计奖 · 优秀奖",
+    "note": "作者：王思雅、左爱萍、欧涵琪。指导老师：杨蕾。",
+    "authorship": "团队创作",
+    "concept": "地域文化的当代表达"
+  },
+  {
+    "id": "sealink",
+    "title": "SeaLink",
+    "en": "OCEAN-FRIENDLY REFILL TRAVEL KIT",
+    "category": "visual",
+    "type": "产品设计",
+    "bg": "#e4edf0",
+    "className": "wide-work",
+    "images": [
+      "sealink"
+    ],
+    "role": "团队创作 · 产品设计 · 可持续环保设计",
+    "description": "面向旅行场景的海洋友好可补充洗护套装。通过可重复使用的模块化硅胶瓶身，回应一次性旅行洗护用品造成的塑料浪费，并兼顾便携、防漏与灵活组合的使用体验。",
+    "extra": "海洋生物图形将独立瓶体连接成完整画面；卡扣组合、宽口补充与精准出液设计，分别回应携带、补充和使用环节。配套漫画手册以海洋塑料污染为主题，延展产品的环保表达。",
+    "note": "团队作品，王思雅为第一顺序作者。",
+    "authorship": "团队创作",
+    "concept": "可持续环保设计"
+  },
+  {
+    "id": "poetry",
+    "title": "让诗歌，成为形状",
+    "en": "TYPOGRAPHIC POETRY",
+    "category": "visual",
+    "type": "平面海报",
+    "bg": "#e8e8e5",
+    "className": "series-work",
+    "images": [
+      "poem-1",
+      "poem-2",
+      "poem-3"
+    ],
+    "role": "个人创作 · 平面海报 · 诗歌创意视觉设计",
+    "description": "以诗歌文字为素材，探索汉字在阅读之外的视觉表达。通过字号、疏密、重复、方向与留白，让文字形成月亮、水流、人群与涌出的形态，将阅读的情绪转化为画面的节奏。",
+    "note": "诗歌并非王思雅创作；王思雅负责文字视觉设计、排版与图形化表达。",
+    "authorship": "个人创作",
+    "concept": "诗歌创意视觉设计"
+  },
+  {
+    "id": "sonic-archives",
+    "title": "朝阳医疗噪声档案",
+    "en": "SONIC ARCHIVES OF CHAOYANG HEALTHCARE",
+    "category": "digital",
+    "type": "信息可视化",
+    "bg": "#f1e8ee",
+    "className": "wide-work",
+    "images": [
+      "sonic-archives"
+    ],
+    "role": "团队创作 · 信息可视化 · 让医疗环境的声音被看见",
+    "description": "基于北京朝阳区五家医院的实地声音采集与研究，以“声音档案”的形式组织门诊大厅、急诊输液室、护士站、诊室等候区等场景的声景。将分贝值、人流量、空间与情感体验转化为可阅读的视觉证据。",
+    "extra": "以环形图、热力图、折线图与散点图呈现不同医院与区域的噪声特征，尝试让持续存在、却容易被忽略的医疗环境压力被看见。",
+    "authorship": "团队创作",
+    "concept": "让医疗环境的声音被看见"
+  },
+  {
+    "id": "combat-crusher",
+    "title": "战斗粉碎机",
+    "en": "COMBAT CRUSHER",
+    "category": "3d",
+    "type": "3D场景建模",
+    "bg": "#d9dcdd",
+    "className": "wide-work",
+    "images": [
+      "combat-crusher"
+    ],
+    "role": "个人创作 · 3D场景建模 · 机械结构与硬表面造型",
+    "description": "围绕机械结构与装甲载具展开的硬表面建模作品。通过整体造型、三视角展示与局部结构细节，呈现履带、车体、武器部件之间的层次与构造。",
+    "note": "以高模展示为主，包含三视角与机械结构细节。",
+    "authorship": "个人创作",
+    "concept": "机械结构与硬表面造型"
+  },
+  {
+    "id": "wasteland-suv",
+    "title": "废土探索 SUV",
+    "en": "WASTELAND EXPLORATION SUV",
+    "category": "3d",
+    "type": "3D场景建模",
+    "bg": "#dbdbd9",
+    "className": "wide-work",
+    "images": [
+      "suv-05",
+      "suv-02",
+      "suv-03"
+    ],
+    "role": "个人创作 · 3D场景建模 · 废土载具的结构与质感",
+    "description": "腾讯实习期间制作的载具作品，以越野车的结构、磨损与材质层次表现废土探索的使用痕迹。通过多个视角呈现车体比例、外部配件与表面质感。",
+    "note": "三个视角来自同一辆载具。画面为 Unreal Engine 中的展示。",
+    "authorship": "个人创作",
+    "concept": "废土载具的结构与质感"
+  },
+  {
+    "id": "popmart",
+    "title": "拥抱带刺的你",
+    "en": "POP MART · ZSIGA",
+    "category": "visual",
+    "type": "平面海报",
+    "bg": "#eee9e0",
+    "className": "series-work",
+    "images": [
+      "popmart-1",
+      "popmart-2",
+      "popmart-3"
+    ],
+    "role": "团队创作 · 平面海报 · 拥抱带刺的个性与成长",
+    "description": "以泡泡玛特 Zsiga 为主题的手绘海报系列，将角色绘制与真实校园场景结合。用樱花、跑道与骑行等日常画面，表达“美梦成真，拥抱烂漫”“加速生长，拥抱倔强”与“从0开始，拥抱自由”。",
+    "note": "品牌角色主题创作。角色原始设定归原权利方所有。",
+    "authorship": "团队创作",
+    "concept": "拥抱带刺的个性与成长"
+  },
+  {
+    "id": "care",
+    "title": "看见她，自由而强大",
+    "en": "PUBLIC WELFARE POSTER DESIGN",
+    "category": "visual",
+    "type": "平面海报",
+    "bg": "#eee5e5",
+    "className": "series-work",
+    "images": [
+      "care-1",
+      "care-2",
+      "care-3"
+    ],
+    "role": "个人创作 · 平面海报 · 看见更年期女性的力量",
+    "description": "以关爱更年期女性为主题的公益海报设计。将日常人物影像与手绘文字、涂鸦、鲜明色彩结合，回应围绕更年期女性的偏见、身体变化与被忽视的付出。",
+    "extra": "“当大妈有什么不好？”“大步向前吧”“她们也需要爱”构成三个彼此呼应的表达，倡导理解、尊重与支持。",
+    "authorship": "个人创作",
+    "concept": "看见更年期女性的力量"
+  },
+  {
+    "id": "editorial",
+    "title": "让内容，也有自己的声音",
+    "en": "EDITORIAL & SOCIAL CONTENT",
+    "category": "digital",
+    "type": "公众号视觉设计",
+    "bg": "#e3e9e5",
+    "className": "wide-work",
+    "images": [
+      "social-headers",
+      "social-profile",
+      "social-dschool"
+    ],
+    "role": "个人创作 · 公众号视觉设计 · 让图文内容有自己的声音",
+    "description": "面向中国传媒大学学生会及设计思维相关公众号的视觉与内容作品。包含活动头图、人物内容推送、课程展示与招生信息等，在不同主题中组织图文层级，建立内容的识别度与传播节奏。",
+    "authorship": "个人创作",
+    "concept": "让图文内容有自己的声音"
+  },
+  {
+    "id": "barrel",
+    "title": "木桶",
+    "en": "WOODEN BARREL · FULL PIPELINE",
+    "category": "3d",
+    "type": "3D场景建模",
+    "bg": "#e4ded2",
+    "className": "wide-work",
+    "images": [
+      "barrel"
+    ],
+    "role": "个人创作 · 3D场景建模 · 木与金属的材质表达",
+    "description": "场景建模方向最早期的全流程作品之一。从基础形体到木纹、金属箍与表面磨损，练习道具造型、雕刻、贴图烘焙、材质制作与最终展示，建立对完整制作流程的理解。",
+    "authorship": "个人创作",
+    "concept": "木与金属的材质表达"
+  },
+  {
+    "id": "jinx",
+    "title": "Jinx · Bomb Maniac",
+    "en": "3D CHARACTER MODELING",
+    "category": "3d",
+    "type": "3D角色建模",
+    "bg": "#e7ded0",
+    "className": "wide-work",
+    "images": [
+      "jinx"
+    ],
+    "role": "个人创作 · 3D角色建模 · 从角色原画到立体表达",
+    "description": "以 Jinx 为对象的早期3D角色制作练习，通过整体造型、角色比例、服饰与道具的细节，探索二维角色向三维空间的转化。",
+    "note": "基于既有角色的建模练习。Jinx 角色原始设定 © Riot Games。",
+    "authorship": "个人创作",
+    "concept": "从角色原画到立体表达"
+  },
+  {
+    "id": "demon",
+    "title": "Demon Enchantress",
+    "en": "3D CHARACTER MODELING",
+    "category": "3d",
+    "type": "3D角色建模",
+    "bg": "#dadce5",
+    "className": "portrait-work",
+    "images": [
+      "demon"
+    ],
+    "role": "个人创作 · 3D角色建模 · 角色形体与材质探索",
+    "description": "另一件早期3D角色建模作品，围绕角、发型、面部与配饰的造型关系，练习角色形体、表面材质与灯光展示。",
+    "note": "根据原画参考进行的早期角色建模练习。",
+    "authorship": "个人创作",
+    "concept": "角色形体与材质探索"
+  },
+  {
+    "id": "vehicle-tricycle",
+    "title": "旧三轮载具",
+    "en": "VEHICLE MODELING STUDY",
+    "category": "3d",
+    "type": "3D场景建模",
+    "bg": "#dfe3dd",
+    "className": "wide-work",
+    "images": [
+      "vehicle-tricycle"
+    ],
+    "role": "个人创作 · 3D场景建模 · 旧载具的使用痕迹",
+    "description": "以旧三轮载具的车头部分为主要展示内容，表现车体结构、玻璃破损、漆面锈蚀与长期使用的表面痕迹。通过三个观察角度，呈现造型与材质细节。",
+    "authorship": "个人创作",
+    "concept": "旧载具的使用痕迹"
+  }
+]
