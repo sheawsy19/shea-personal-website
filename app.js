@@ -97,8 +97,8 @@ const projects = [
     "en": "WASTELAND EXPLORATION SUV",
     "category": "3d",
     "type": "3D场景建模",
-    "bg": "#dbdbd9",
-    "className": "wide-work",
+    "bg": "#141719",
+    "className": "wide-work uncropped-work",
     "images": [
       "suv-05",
       "suv-02",
@@ -205,8 +205,8 @@ const projects = [
     "en": "3D CHARACTER MODELING",
     "category": "3d",
     "type": "3D角色建模",
-    "bg": "#dadce5",
-    "className": "portrait-work",
+    "bg": "#101521",
+    "className": "portrait-work uncropped-work",
     "images": [
       "demon"
     ],
@@ -233,7 +233,7 @@ const projects = [
     "concept": "旧载具的使用痕迹"
   }
 ];
-const asset = id => `assets/${id}.webp`;
+const asset = id => `assets/${id}.webp?v=5`;
 const grid=document.querySelector('#project-grid');
 let activeFilter='all',currentProject=null,dialogReturnFocus=null,toastTimer;
 const dialog=document.querySelector('.project-dialog');
@@ -242,7 +242,7 @@ const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer=matchMedia('(hover:hover) and (pointer:fine)').matches;
 
 function renderProjects(){
- grid.innerHTML=projects.map((p,i)=>`<article class="project-card ${p.className}" data-category="${p.category}"><button class="project-button" data-project="${p.id}" aria-label="查看${p.title}作品详情"><div class="project-image" style="--project-bg:${p.bg}"><span class="image-index">${String(i+1).padStart(2,'0')} / ${p.type}</span><div class="project-preview">${(p.className==='series-work'?p.images:p.images.slice(0,1)).map(img=>`<img src="${asset(img+'-thumb')}" alt="${p.title}作品展示" width="1400" height="1000" loading="lazy">`).join('')}</div><span class="image-open" aria-hidden="true">↗</span></div><div class="project-caption"><div><h3>${p.title}</h3></div></div><p class="project-role"><span class="caption-authorship">${p.authorship}</span><span class="caption-separator" aria-hidden="true"> · </span><span class="caption-medium">${p.type}</span><span class="caption-separator" aria-hidden="true"> · </span><span class="caption-concept">${p.concept}</span></p></button></article>`).join('');
+ grid.innerHTML=projects.map((p,i)=>`<article class="project-card ${p.className}" data-category="${p.category}"><button class="project-button" data-project="${p.id}" aria-label="查看${p.title}作品详情"><div class="project-image" style="--project-bg:${p.bg}"><span class="image-index">${String(i+1).padStart(2,'0')} / ${p.type}</span><div class="project-preview">${(p.className==='series-work'?p.images:p.images.slice(0,1)).map(img=>`<img src="${asset(img+'-thumb')}" alt="${p.title}作品展示" width="1400" height="1000" loading="lazy">`).join('')}</div><span class="image-open" aria-hidden="true"><svg class="inline-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="project-caption"><div><h3>${p.title}</h3></div></div><p class="project-role"><span class="caption-authorship">${p.authorship}</span><span class="caption-separator" aria-hidden="true"> · </span><span class="caption-medium">${p.type}</span><span class="caption-separator" aria-hidden="true"> · </span><span class="caption-concept">${p.concept}</span></p></button></article>`).join('');
 }
 renderProjects();
 
@@ -266,7 +266,7 @@ function showDialog(){
 function openProject(id){
  const p=projects.find(p=>p.id===id);if(!p)return;
  currentProject=id;
- content.innerHTML=`<span class="eyebrow">${p.type}</span><h2 id="dialog-title">${p.title}</h2><p class="dialog-subtitle">${p.en}</p><div class="project-facts"><span>${p.role}</span><span>${p.images.length} 张作品图</span></div><div class="project-prose"><p>${p.description}</p>${p.extra?`<p>${p.extra}</p>`:''}</div>${p.award?`<p class="dialog-award">${p.award}</p>`:''}${p.note?`<p class="authorship-note">${p.note}</p>`:''}<div class="gallery-topline"><span>完整作品 / PROJECT GALLERY</span><span>点击图片可放大 ↗</span></div><div class="dialog-images">${p.images.map((img,i)=>`<figure><a href="${asset(img)}" target="_blank" rel="noopener" aria-label="放大查看${p.title}第 ${i+1} 张高清图"><img src="${asset(img)}" alt="${p.title} · 作品 ${i+1}" loading="lazy"></a><figcaption>${String(i+1).padStart(2,'0')} / ${String(p.images.length).padStart(2,'0')}<a href="${asset(img)}" target="_blank" rel="noopener">放大查看高清图 ↗</a></figcaption></figure>`).join('')}</div><div class="dialog-end"><p>每一次创作，都是一次新的探索。</p><button class="next-project">下一个作品 ↗</button></div>`;
+ content.innerHTML=`<span class="eyebrow">${p.type}</span><h2 id="dialog-title">${p.title}</h2><p class="dialog-subtitle">${p.en}</p><div class="project-facts"><span>${p.role}</span><span>${p.images.length} 张作品图</span></div><div class="project-prose"><p>${p.description}</p>${p.extra?`<p>${p.extra}</p>`:''}</div>${p.award?`<p class="dialog-award">${p.award}</p>`:''}${p.note?`<p class="authorship-note">${p.note}</p>`:''}<div class="gallery-topline"><span>完整作品 / PROJECT GALLERY</span><span>点击图片可放大 <svg class="inline-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="dialog-images">${p.images.map((img,i)=>`<figure><a href="${asset(img)}" target="_blank" rel="noopener" aria-label="放大查看${p.title}第 ${i+1} 张高清图"><img src="${asset(img)}" alt="${p.title} · 作品 ${i+1}" loading="lazy"></a><figcaption>${String(i+1).padStart(2,'0')} / ${String(p.images.length).padStart(2,'0')}<a href="${asset(img)}" target="_blank" rel="noopener">放大查看高清图 <svg class="inline-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></figcaption></figure>`).join('')}</div><div class="dialog-end"><p>每一次创作，都是一次新的探索。</p><button class="next-project">下一个作品 <svg class="inline-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>`;
  content.querySelector('.next-project').addEventListener('click',()=>{const filtered=projects.filter(x=>activeFilter==='all'||x.category===activeFilter);const index=filtered.findIndex(x=>x.id===currentProject);openProject(filtered[(index+1)%filtered.length].id);});
  showDialog();
 }
@@ -313,7 +313,6 @@ function onScroll(){
  requestAnimationFrame(()=>{
   const range=document.documentElement.scrollHeight-innerHeight;
   document.querySelector('.scroll-progress').style.width=`${range>0?scrollY/range*100:0}%`;
-  if(!reducedMotion&&finePointer){const title=document.querySelector('.hero h1>span');title.style.transform=`translateX(${-scrollY*.055}px)`;}
   scrollTick=false;
  });
 }
@@ -322,9 +321,6 @@ if(finePointer&&!reducedMotion){
  const cursor=document.querySelector('.hover-cursor');
  grid.addEventListener('pointermove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px';cursor.classList.toggle('visible',!!e.target.closest('.project-image'));});
  grid.addEventListener('pointerleave',()=>cursor.classList.remove('visible'));
- document.querySelectorAll('.magnetic').forEach(el=>{
-  el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const x=e.clientX-r.left-r.width/2,y=e.clientY-r.top-r.height/2;el.style.transform=`translate(${x*.16}px,${y*.16}px)`;});
-  el.addEventListener('pointerleave',()=>{el.style.transition='transform .45s cubic-bezier(.2,.8,.2,1)';el.style.transform='translate(0,0)';setTimeout(()=>el.style.removeProperty('transition'),450);});
- });
+
 }
 

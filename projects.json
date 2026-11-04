@@ -96,8 +96,8 @@
     "en": "WASTELAND EXPLORATION SUV",
     "category": "3d",
     "type": "3D场景建模",
-    "bg": "#dbdbd9",
-    "className": "wide-work",
+    "bg": "#141719",
+    "className": "wide-work uncropped-work",
     "images": [
       "suv-05",
       "suv-02",
@@ -204,8 +204,8 @@
     "en": "3D CHARACTER MODELING",
     "category": "3d",
     "type": "3D角色建模",
-    "bg": "#dadce5",
-    "className": "portrait-work",
+    "bg": "#101521",
+    "className": "portrait-work uncropped-work",
     "images": [
       "demon"
     ],
